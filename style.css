@@ -1,0 +1,33 @@
+header {
+    background: url('images/dbz.png') center/cover no-repeat; /* Reemplaza 'images/fondo.jpg' con la ruta de tu imagen */
+    height: 800px; /* Ajusta la altura según tus necesidades */
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items:  flex-start;
+    justify-content: center;
+    font-family: "Share tech mono";
+    font-weight: bold;
+   
+  }
+
+  /* Estilos personalizados para la barra de navegación */
+  .navbar {
+    background-color: transparent; /* Fondo transparente para que se vea la imagen de fondo */
+    border: none; /* Sin bordes */
+   
+  }
+
+  .navbar-brand img {
+    height: 40px; /* Ajusta la altura según tus necesidades */
+    width: auto; /* Ajusta la anchura según tus necesidades */
+    margin-right: 20px;
+  }
+  .nav-item a{
+    padding: 20px 20px 20px 20px;
+    margin: 0 30px;
+    color: blue;
+  }
+  .nav-item a:hover{
+    text-shadow:  0 0 8px #316472;
+  }
